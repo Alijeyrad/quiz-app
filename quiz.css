@@ -1,0 +1,92 @@
+html,body,h1,h2,h3,h4,h5,h6 {
+  font-family: Roboto ,sans-serif;
+}
+
+#slides {
+  height: 50px;
+}
+
+#progressBar {
+  position: absolute;
+  width: 100%;
+  top: 467px;
+}
+
+#name {
+  width: 16rem;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#name:focus {
+  outline: none;
+}
+
+#name:disabled {
+  user-select: none;
+}
+
+.question {
+  user-select: none;
+  opacity: 0.5;
+  transition-duration: 1s;
+}
+
+#next {
+  cursor: not-allowed;
+}
+
+#prev {
+  cursor: not-allowed;
+}
+
+#qContainer {
+  max-height: 335px;
+  width: 100%;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h4 {
+  margin-top: 0 !important;
+}
+
+#paginationButton {
+  margin-top: 5px;
+  margin-right: 5px;
+  box-shadow: 3px 13px 29px 5px rgb(0 0 0 / 10%);
+}
+
+#paginationButton:hover, #paginationButton:focus-visible {
+  box-shadow: 3px 13px 29px 5px rgb(0 0 0 / 10%);
+}
+
+#modalButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+#resultsContainer {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+}
+
+#myBar {
+  transition-duration: 0.8s;
+}
